@@ -9,7 +9,11 @@ public class appofbasics1 {
         int perimeter = x + y + z;
         System.out.println(perimeter);
 
-        // Comparing side lengths x and y using if/else statements
+        /* Comparing side lengths x and y using if/else statements:
+            if (condition) {
+                do stuff
+            }
+        */
         if (x > y) {
             System.out.println("Side x is longer.");
         } else if (x == y) {
