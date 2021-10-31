@@ -1,4 +1,4 @@
-# Offseason Training 2022
+# Offseason Training 2021
 Here are the completed lesson notes for programming training!
 
 You can look at these if you've missed a lesson or if you want to look ahead a bit.
