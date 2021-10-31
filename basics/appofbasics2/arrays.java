@@ -1,5 +1,3 @@
-package appofbasics2;
-
 public class arrays {
     public static void main(String[] args){
         String[] food = new String[4];
@@ -10,7 +8,7 @@ public class arrays {
         food[3] = "oat milk";
 
         for (int i = 0; i < food.length; i++) {
-            System.out.println(food);
+            System.out.println(food[i]);
         }
     }
 }
