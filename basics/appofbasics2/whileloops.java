@@ -1,3 +1,5 @@
+package appofbasics2;
+
 public class whileloops {
     public static void main(String[] args) {
         int speedLimit = 50;
