@@ -7,7 +7,7 @@ public class appofbasics1 {
         int z = 3;
 
         int perimeter = x + y + z;
-        System.out.println("The perimeter of the triangle is: " + perimeter);
+        System.out.println("The perimeter of the triangle is: " + perimeter + " units");
 
         /* Comparing side lengths x and y using if/else statements:
             if (condition) {
@@ -26,7 +26,7 @@ public class appofbasics1 {
         String name = "your name";
         int length = name.length();
 
-        System.out.println("The length of your name is" + length + "letters.");
+        System.out.println("The length of your name is " + length + " letters.");
     }
 
 }
