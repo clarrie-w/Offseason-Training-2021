@@ -1,6 +1,6 @@
 // import Vehicle;
 
-public class Car extends Vehicle{
+public class Car extends Vehicle { // extends = inheritance of child class from parent class
     int mileage;
     int distanceThisSession;
 
@@ -16,7 +16,7 @@ public class Car extends Vehicle{
         this.distanceThisSession = distanceThisSession;
     }
 
-    public void setMileage() { // setter function used when we want to update values
+    public void setMileage() { // setter method used when we want to update values
         mileage += distanceThisSession;
     }
 
