@@ -18,7 +18,7 @@ public class TurretSubsystem extends SubsystemBase {
   
   /** Creates a new TurretSubsystem. */
   public TurretSubsystem(double P, double I, double D) {
-    turret = new CANSparkMax(4, MotorType.kBrushless);
+    turret = new CANSparkMax(5, MotorType.kBrushless);
     encoder = turret.getEncoder();
     controller = turret.getPIDController();
     controller.setP(P);
